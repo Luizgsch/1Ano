@@ -15,7 +15,7 @@
   }
   
   .bg-texture {
-    background-image: url('/third_bg_texture.png');
+    background-image: url('./third_bg_texture.png');
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
