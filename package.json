@@ -2,7 +2,7 @@
   "name": "nosso-aniversario",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://luizgsch.github.io/nosso-aniversario",
+  "homepage": "https://luizgsch.github.io/1Ano",
   "type": "module",
   "scripts": {
     "dev": "vite",
