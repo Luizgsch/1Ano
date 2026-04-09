@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-linen text-terracotta font-sans antialiased selection:bg-terracotta selection:text-linen;
+  }
+}
+
+@layer utilities {
+  .text-outline {
+    -webkit-text-stroke: 1.5px #A33B20;
+    color: transparent;
+  }
+  
+  .bg-texture {
+    background-image: url('/third_bg_texture.png');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: theme('colors.linen');
+    opacity: 0.15;
+  }
+}
