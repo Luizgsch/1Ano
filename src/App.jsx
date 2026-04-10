@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ScrollIndicator from './components/ScrollIndicator';
 import ScrollSection from './components/ScrollSection';
+import MilestoneSection from './components/MilestoneSection';
 
 // Asset Imports
 import img1 from './assets/1.jpeg';
@@ -40,6 +41,9 @@ function App() {
 
       {/* Hero Section */}
       <Hero />
+
+      {/* Milestone Section */}
+      <MilestoneSection />
 
       {/* Narrative Scroll Sections */}
       <div className="relative z-10">
